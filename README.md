@@ -1,6 +1,3 @@
-Okay, here's a comprehensive `README.md` for your MKFR project, incorporating information from the paper and the provided Python code.
-
-```markdown
 # MKFR: A Framework for Multi-faceted Knowledge Fusion in Retrieval-Augmented Generation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -188,36 +185,3 @@ If you use this work, please cite the original paper (details to be added once p
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (you'll need to create a LICENSE file with the MIT license text).
-
----
-
-*For contact, please refer to the author's contact information in the paper.*
-```
-
-**Next Steps for You:**
-
-1.  **Create a `LICENSE` file:** Copy the MIT License text into a file named `LICENSE` in the root of your repository.
-2.  **Update `requirements.txt`:**
-    ```
-    pandas
-    numpy
-    scikit-learn
-    sentence-transformers
-    rank_bm25
-    networkx
-    ```
-3.  **Replace Placeholders:**
-    *   Update the GitHub clone URL in the "Setup & Installation" section.
-    *   Once the paper is published, update the BibTeX citation with the correct year, journal/conference, DOI, etc.
-4.  **Consider adding a `main` block guard to `evaluation.py`** if you want to keep the test code there but not run it when imported:
-    ```python
-    # evaluation.py
-    # ... (your functions) ...
-
-    if __name__ == "__main__":
-        retrieved = ["d1", "d5", "d2", "d3", "d4"]
-        # ... rest of your test code ...
-    ```
-    Do the same for `mkfr_pipeline.py` and `dataset.py` if they have `if __name__ == "__main__":` blocks that you don't want to run automatically on import during the benchmark.
-
-This `README.md` should provide a solid starting point for your GitHub repository.
