@@ -168,7 +168,7 @@ This script will:
 *   **Scaling & Benchmarking:** Evaluate on larger, standard benchmark datasets (MS MARCO, KILT) and real-world database systems.
 *   **Diverse Knowledge Types:** Integrate temporal KBs, commonsense KGs, multi-modal sources, and fact-level triple fusion.
 
-## 📄 Citation
+<!-- ## 📄 Citation
 
 If you use this work, please cite the original paper (details to be added once published):
 
@@ -181,7 +181,7 @@ If you use this work, please cite the original paper (details to be added once p
   % Add volume, pages, doi etc. once available
 }
 ```
-
+-->
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (you'll need to create a LICENSE file with the MIT license text).
